@@ -126,3 +126,14 @@ body {
 .lista__link a:active {
     color: #7fffd4;
 }
+@media (max-width: 1200px) {
+    .container {
+     padding: 5%;   
+    }
+    .dispositivos__lista {
+        justify-content: left;
+    }
+    .rodape__lista a {
+        margin-left: 1.5em;
+    }
+}
