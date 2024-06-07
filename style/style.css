@@ -126,12 +126,17 @@ body {
 .lista__link a:active {
     color: #7fffd4;
 }
-@media (max-width: 1200px) {
+@media (max-width: 780px) {
     .container {
-     padding: 5%;   
+     padding: 5%;
+     grid-template-columns: 100%;
+    }
+    .secundario__imagem {
+        width: 100%;
     }
     .dispositivos__lista {
-        justify-content: left;
+        flex-wrap: wrap;
+        justify-content: center;
     }
     .rodape__lista a {
         margin-left: 1.5em;
